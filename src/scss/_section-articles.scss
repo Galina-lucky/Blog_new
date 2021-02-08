@@ -12,18 +12,11 @@
 }
 
 .section-articles {
-  /*padding-top: 80px;
-  padding-bottom: 85px;*/
 
   &__header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    //margin-bottom: 60px;
-/*
-    @media (max-width: $screen-md-max) {
-      margin-bottom: 45px;
-    }*/
 
     @media (max-width: $screen-xs-max) {
       flex-direction: column;
